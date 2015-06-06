@@ -1,0 +1,15 @@
+.FlexGrid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.FlexGridItem {
+  flex: 1 0;
+}
+
+.FlexGridItemFixed {
+  /* An `auto` flex-basis will use the size of the contents. */
+  flex: 0 0 auto!important;
+}
